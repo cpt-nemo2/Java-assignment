@@ -1,9 +1,9 @@
-import java.util.Scanner;
+import java.util.Scanner; //Import scanner class
 
 public class bonus {
     public static void main(String args[]){
          //Initializing the variables
-         double sal,bonus;
+         double sal,bonus=0.0;
          int year;
          //Create a scanner object
           Scanner scanner= new Scanner(System.in);
@@ -34,5 +34,6 @@ public class bonus {
          else{
              System.out.println("Invalid input");//error checking
          }
+        scanner.close();
      }
 }
