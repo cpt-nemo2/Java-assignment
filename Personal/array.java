@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class array {
     public static void main(String[] args) {
             //DECLARING ARRAYS
@@ -11,18 +13,14 @@ public class array {
 
             //ACCESSING ARRAY ELEMENTS
         // System.out.println(cars[2]);
-        System.out.println(myNum[3]);
+        // System.out.println(myNum[3]);
 
             //FINDING OUT ARRAY LENGTH
-        System.out.println(cars.length);
+        // System.out.println(cars.length);
 
-            //INSERTING ELEMENTS IN ARRAYS
-            String[] newCars={};
 
-            for(int i= 0; i < cars.length; i++){
-                cars[i]= newCars[i];
-            }
 
-            System.out.println();
+            System.out.println(Arrays.toString(cars));
+            System.out.println(Arrays.toString(myNum));
     }
 }

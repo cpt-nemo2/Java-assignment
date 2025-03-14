@@ -1,3 +1,7 @@
+//Program to calculate bonus
+//Author: Victor Wachira
+//Reg No.:CT101/G/19570/23
+
 import java.util.Scanner;
 
 public class bonus {
@@ -34,5 +38,7 @@ public class bonus {
          else{
              System.out.println("Invalid input");//error checking
          }
+
+         scanner.close();
      }
 }

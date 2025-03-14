@@ -37,5 +37,7 @@ public class calculator{
         calculator myObj2= new calculator();
         double result=myObj2.calc(num1, num2, c);
         System.out.println(result);
+
+        myObj.close();
     }
 }

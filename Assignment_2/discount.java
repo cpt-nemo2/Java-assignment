@@ -1,3 +1,7 @@
+//Program to discount
+//Author: Victor Wachira
+//Reg No.:CT101/G/19570/23
+
 //imports scanner class
 import java.util.Scanner;
 //main class
@@ -15,7 +19,7 @@ public class discount{
             System.out.println("No discount!");
         }
 
-        return discount;
+        return discount; //Return output gotten from the if else statement
     }
     public static void main(String[] args) {
         double amt;
@@ -29,5 +33,8 @@ public class discount{
         double disc=dis.getDiscount(amt);
 
         System.out.println(disc); //prints out the value
+
+
+        myObj.close();
     }
 }

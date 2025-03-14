@@ -1,3 +1,7 @@
+//Program to Calculate Simple interest
+//Author: Victor Wachira
+//Reg No.:CT101/G/19570/23
+
 //Main class
 public class simpleInterest{
     //method for computing interest   
